@@ -1,0 +1,107 @@
+{
+  "updates": [
+    {
+      "id": "up-1-0-1-rf75",
+      "version": "1.0.1-rf75",
+      "tag": "Thương Mại Chuẩn",
+      "date": "2026-11-06",
+      "title": "Bản Phát Hành Thương Mại Chuẩn: Sự Kiện Bingo 11/11, Tự Động Nhận Quà Lite & Tải Cập Nhật Siêu Tốc",
+      "summary": "Phiên bản thương mại chính thức cập nhật tự động hóa sự kiện mới, hoàn thiện cơ chế nhận quà chuỗi ngày và thư cho chế độ Lite, cùng hạ tầng phân phối cập nhật tốc độ cao.",
+      "details": [
+        "Cập nhật sự kiện Flash 11/11 (Bingo Thủy Tinh Kì Ảo): Nhận diện vật phẩm Thủy Tinh Kì Ảo, tự động nhận thưởng 12 đường khi đủ điều kiện, tự động đổi sang bảng mới và tự nhận quà nhiệm vụ cùng mốc quay.",
+        "Đồng bộ nhận quà tự động cho Chế độ Nhẹ (AllaBotLite 2 & 3): Tự động nhận quà chuỗi 14 ngày sự kiện hiện tại, tự động duyệt nhận quà 14 ngày tân thủ theo tiến trình, tự động kiểm tra và nhận toàn bộ quà đính kèm trong Hộp thư.",
+        "Nâng cấp hạ tầng tải bản cập nhật: Kết nối mạng phân phối GitHub CDN băng thông cao, tự động đối soát mã băm SHA-256 an toàn trước khi chạy.",
+        "Tối ưu hóa hiệu năng và độ ổn định khi treo máy số lượng lớn tài khoản liên tục 24/7."
+      ]
+    },
+    {
+      "id": "up-1-0-1-rf73",
+      "version": "1.0.1-rf73",
+      "tag": "Thương Mại & Bản Quyền",
+      "date": "2026-11-05",
+      "title": "Nâng Cấp Hạ Tầng Đám Mây & Tối Ưu Hóa Xác Thực Bản Quyền Tốc Độ Cao",
+      "summary": "Chuyển giao và vận hành hệ thống trên cụm máy chủ đám mây mới, tăng tốc độ xác thực và phản hồi.",
+      "details": [
+        "Vận hành cụm máy chủ xác thực điện toán đám mây tốc độ cao, đảm bảo thời gian phản hồi tức thì.",
+        "Tối ưu hóa cơ chế duy trì phiên kết nối bản quyền (Session Refresh) chống gián đoạn đột ngột.",
+        "Bảo toàn 100% tài khoản, gói bản quyền và thông tin cấu hình của toàn bộ người dùng."
+      ]
+    },
+    {
+      "id": "up-1-0-1-rf69",
+      "version": "1.0.1-rf69",
+      "tag": "Tính Năng Mới & Fix Lỗi",
+      "date": "2026-11-03",
+      "title": "Tự Động Kết Bạn Kênh Thế Giới & Tối Ưu Hóa Di Chuyển Phó Bản",
+      "summary": "Bổ sung tính năng tự động gửi và đồng ý kết bạn đồng loạt cho toàn đội khi có hiệu lệnh trên kênh chat, cải tiến thuật toán di chuyển.",
+      "details": [
+        "Tự động kết bạn qua chat: Khi nhận hiệu lệnh kết bạn trên kênh Thế giới hoặc Quân đoàn, toàn bộ tài khoản trong nhóm tự động gửi kết bạn và chấp thuận lời mời kết bạn ngược lại.",
+        "Hỗ trợ phân quyền người ra lệnh: Cho phép điền danh sách nhân vật được quyền kích hoạt hiệu lệnh kết bạn, tránh bị spam.",
+        "Tối ưu hóa thuật toán tìm đường và di chuyển né quái trong các phó bản tìm kho báu, chống kẹt đối thoại NPC."
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "gd-setup",
+      "category": "Cài Đặt & Cập Nhật",
+      "title": "Quy trình Cài đặt & Cập nhật Tự động An toàn",
+      "readTime": "3 phút đọc",
+      "summary": "Hướng dẫn cài đặt ban đầu và cách cập nhật phần mềm lên bản mới nhất mà vẫn giữ nguyên 100% cấu hình cá nhân.",
+      "content": "1. **Cài đặt ban đầu**:\n- Tải gói phát hành chính thức dạng nén (.zip).\n- Giải nén vào thư mục cố định (ví dụ `D:\\AllaAi`). Khuyến nghị không đặt trong thư mục `C:\\Program Files` để tránh bị hạn chế quyền ghi file.\n- Chạy `AllaLauncher.exe` hoặc `app\\AllaBotCS.exe` dưới quyền Administrator.\n\n2. **Cập nhật tự động (Auto Update)**:\n- Khi có phiên bản mới, hệ thống sẽ hiện hộp thoại thông báo.\n- Anh chỉ cần nhấn nút **\"Tải về & Ghi đè cập nhật\"**.\n- Hệ thống sẽ tự động sao lưu cấu hình cũ, tải gói cập nhật mới nhất từ CDN tốc độ cao, đối soát mã SHA-256 an toàn và tự khởi động lại.\n- **Lưu ý**: Các file cấu hình cá nhân như `custom_item_definitions.ini`, `custom_skill_definitions.json` và thư mục `Config/Definitions` sẽ được bảo toàn nguyên vẹn 100%."
+    },
+    {
+      "id": "gd-inventory",
+      "category": "Tự Động Hóa Hòm Đồ",
+      "title": "Cấu hình Tự động Nhặt & Vứt Đồ (Item Disposition)",
+      "readTime": "4 phút đọc",
+      "summary": "Chi tiết phím tắt nhanh và cách thiết lập danh mục tự động vứt rác, vứt Hư Ngọc và giữ lại đồ quý.",
+      "content": "1. **Phím tắt nhanh trong giao diện Túi đồ**:\n- Nhấn phím **[1]**: Tự động thêm vật phẩm đang chọn vào danh sách **Tự động Bán (Auto Sell)**.\n- Nhấn phím **[2]**: Tự động thêm vật phẩm đang chọn vào danh sách **Tự động Vứt (Auto Drop)**.\n- Chuột phải vào vật phẩm: Chọn nhanh các hành động tùy biến.\n\n2. **Quy tắc vứt đồ thông minh**:\n- Từ bản **1.0.1-rf75**, vật phẩm **Hư Ngọc** được tích hợp tự động vứt bắt buộc khi bạn bật tính năng \"Tự động vứt item\".\n- Danh sách cấu hình tùy biến được lưu tại `custom_item_definitions.ini` và tự động nạp mỗi khi khởi động."
+    },
+    {
+      "id": "gd-pbd",
+      "category": "Phó Bản & Nhiệm Vụ",
+      "title": "Cấu hình PBĐ Tìm Kho Báu & Di Chuyển Thông Minh (A* Pathfinding)",
+      "readTime": "5 phút đọc",
+      "summary": "Cách thiết lập tổ đội và nhân vật chạy phó bản tìm kho báu chuẩn 3 rương, triệt tiêu lỗi mất kết nối.",
+      "content": "1. **Cơ chế nhận diện 3 Rương**:\n- Hệ thống tự động nhận diện danh sách rương khả thi từ máy chủ và lọc chính xác 3 rương hợp lệ, không nhặt rương bẫy hay rương giả.\n- Thời gian phản hồi chuỗi thoại được tối ưu hóa ở mức an toàn, chống kẹt đối thoại NPC.\n\n2. **Thuật toán di chuyển né quái**:\n- Nhân vật di chuyển dựa trên lưới ô hợp lệ của bản đồ.\n- Tuyệt đối không dùng thuật toán nhảy ô mù qua tường tại Map 62003, loại bỏ hoàn toàn hiện tượng ngắt kết nối do sai lệch vị trí."
+    },
+    {
+      "id": "gd-proxy",
+      "category": "Công Cụ Nâng Cao",
+      "title": "Sử dụng Proxy Bắt Gói Tin & Phân Tích Kết Nối (Cap Tool)",
+      "readTime": "4 phút đọc",
+      "summary": "Hướng dẫn chạy proxy cục bộ để kiểm tra tính toàn vẹn kết nối và phân tích luồng dữ liệu an toàn.",
+      "content": "1. **Khởi chạy Proxy bắt gói**:\n- Chạy file `START_PROXY.bat` tại thư mục gốc của bot.\n- Proxy sẽ tự động chuyển tiếp dữ liệu an toàn giữa ứng dụng và máy chủ qua cổng lắng nghe cục bộ.\n\n2. **Phân tích luồng dữ liệu**:\n- Sử dụng công cụ phân tích để xem trạng thái kết nối, thứ tự dữ liệu và kiểm tra độ ổn định đường truyền theo thời gian thực."
+    }
+  ],
+  "policies": [
+    {
+      "id": "pol-config-preservation",
+      "title": "Chính Sách Bảo Toàn Cấu Hình Người Dùng Tuyệt Đối",
+      "badge": "Bảo Vệ Dữ Liệu",
+      "badgeColor": "emerald",
+      "effectiveDate": "Áp dụng từ bản 1.0.1-rf75",
+      "content": "1. **Nguyên tắc cốt lõi**:\nMọi dữ liệu cấu hình, danh sách vật phẩm tự lọc, kịch bản combo kỹ năng của người dùng là tài sản riêng biệt và KHÔNG BAO GIỜ bị ghi đè khi cập nhật phiên bản mới.\n\n2. **Các danh mục được bảo vệ vĩnh viễn**:\n- File định nghĩa vật phẩm người dùng: `custom_item_definitions.ini`\n- File định nghĩa kỹ năng người dùng: `custom_skill_definitions.json`\n- Toàn bộ nội dung trong thư mục: `Config/Definitions/*`\n- Tệp cấu hình tài khoản: `config.ini`\n\n3. **Cơ chế sao lưu tự động trước khi Update**:\nMỗi khi tiến hành cập nhật, trình cập nhật sẽ tự động copy toàn bộ dữ liệu thiết lập sang thư mục Backup, đảm bảo an toàn tuyệt đối trong mọi tình huống mất điện hoặc lỗi mạng."
+    },
+    {
+      "id": "pol-security",
+      "title": "Chính Sách Bảo Mật Tài Khoản & Bản Quyền Điện Toán Đám Mây",
+      "badge": "Bảo Mật Máy Chủ",
+      "badgeColor": "blue",
+      "effectiveDate": "Cập nhật ngày 06/11/2026",
+      "content": "1. **Bảo vệ bản quyền đám mây**:\nHệ thống sử dụng cơ chế bảo mật xác thực máy chủ. Chỉ các bản phát hành chính thức được đăng ký trên cơ sở dữ liệu Supabase mới được cấp phép thực thi.\n\n2. **Tuyệt đối không lưu thông tin đăng nhập nhạy cảm**:\nPhần mềm giao tiếp trực tiếp với máy chủ theo kết nối cục bộ bảo mật, không gửi mật khẩu hay tài khoản của người dùng về bất kỳ máy chủ bên thứ ba nào ngoài hệ thống xác thực bản quyền chính thức.\n\n3. **Tính toàn vẹn nhị phân**:\nMỗi bản cập nhật đều được công khai mã băm SHA-256 trên trang Cập Nhật để người dùng có thể tự kiểm tra đối soát trước khi mở ứng dụng."
+    },
+    {
+      "id": "pol-sla",
+      "title": "Cam Kết Hỗ Trợ Kỹ Thuật & Khả Năng Vận Hành 24/7",
+      "badge": "Vận Hành Bền Bỉ",
+      "badgeColor": "purple",
+      "effectiveDate": "Cập nhật ngày 06/11/2026",
+      "content": "1. **Khả năng tương thích**:\nĐội ngũ phát triển cam kết cập nhật nhanh chóng các sự kiện mới trong game và hỗ trợ xuyên suốt quá trình sử dụng.\n\n2. **Kênh tiếp nhận phản hồi**:\nNgười dùng có thể gửi góp ý, báo lỗi trực tiếp thông qua tab 'Báo lỗi – Yêu cầu' trên Cổng Portal để được đội ngũ kỹ thuật xử lý kịp thời."
+    }
+  ],
+  "serverStatus": "Máy chủ vận hành ổn định",
+  "baselineVersion": "1.0.1-rf75",
+  "lastUpdated": "2026-11-16T04:02:12.608Z"
+}
