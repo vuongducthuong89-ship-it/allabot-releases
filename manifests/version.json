@@ -1,0 +1,11 @@
+{
+  "version": "1.0.1-rf91",
+  "version_code": 172,
+  "release_date": "2026-11-15",
+  "description": "Chuyển hạ tầng xác thực và cập nhật mới (GitHub CDN + Supabase Auth/License)",
+  "changelog": [
+    "[ 1.0.1-rf91 ] Chờ phát hành bản cập nhật hạ tầng mới"
+  ],
+  "download_url": "",
+  "sha256": "B15DE25E176A4CD5D68EF5DA42A633C20364724372CBEF74562C1139C093EFBD"
+}
