@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.1-rf93",
-    "version_code":  174,
+    "version":  "1.0.1-rf94",
+    "version_code":  175,
     "release_date":  "2026-11-16",
-    "description":  "Sửa lỗi xác thực quyền Tab Đặc biệt trên bản Commercial (đồng bộ AppDomain Bootstrap + fallback GitHub API) và tối ưu giao diện",
+    "description":  "vui long ko update",
     "changelog":  [
-                      "[ 1.0.1-rf93 ] Sửa lỗi đọc định danh người dùng Commercial từ AppDomain Bootstrap ở tab Đặc biệt và bổ sung fallback GitHub API"
+                      "vui long ko update"
                   ],
-    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf93/AllaAi-1.0.1-rf93-win-x64.zip",
-    "sha256":  "AFA47BB84FD599971DD31061023EAE1F436D49E6C98C710B8749282BBAF62690"
+    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf94/AllaAi-1.0.1-rf94-win-x64.zip",
+    "sha256":  "65ECDFB5562D7EA4497793C84EE008B31A5C83D4C059B460AA65390186C26609"
 }
