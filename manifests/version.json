@@ -1,11 +1,11 @@
 {
-  "version": "1.0.1-rf91",
-  "version_code": 172,
-  "release_date": "2026-11-15",
-  "description": "Chuyển hạ tầng xác thực và cập nhật mới (GitHub CDN + Supabase Auth/License)",
-  "changelog": [
-    "[ 1.0.1-rf91 ] Chờ phát hành bản cập nhật hạ tầng mới"
-  ],
-  "download_url": "",
-  "sha256": "B15DE25E176A4CD5D68EF5DA42A633C20364724372CBEF74562C1139C093EFBD"
+    "version":  "1.0.1-rf92",
+    "version_code":  173,
+    "release_date":  "2026-11-16",
+    "description":  "Chuyển hạ tầng xác thực mới (Supabase Auth/License + GitHub CDN, tối ưu băng thông)",
+    "changelog":  [
+                      "[ 1.0.1-rf92 ] Chuyển hạ tầng xác thực Auth/License mới (tách GitHub CDN, ngắt polling nền)"
+                  ],
+    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf92/AllaAi-1.0.1-rf92-win-x64.zip",
+    "sha256":  "C5A4AC7E8F485273A36E5DDA68492178225A20324E0C1B5C85811849B3DAF76F"
 }
