@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.1-rf97b",
-    "version_code":  182,
-    "release_date":  "2026-11-19",
+    "version":  "1.0.1-rf97c",
+    "version_code":  183,
+    "release_date":  "2026-11-20",
     "description":  "vui long ko update",
     "changelog":  [
                       "vui long ko update"
                   ],
-    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf97b/AllaAi-1.0.1-rf97b-win-x64.zip",
-    "sha256":  "6AF55D9AFA9664720C7D348BBA7ADF565BC2FE050DB1A454FA04CB5E0788F7E4"
+    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf97c/AllaAi-1.0.1-rf97c-win-x64.zip",
+    "sha256":  "FF1E4EBD716235B4354ED7C1A34FDBD136DA2ACBBE4372C903A4FFB5C4B3DB21"
 }
