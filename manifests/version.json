@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.1-rf98",
-    "version_code":  190,
+    "version":  "1.0.1-rf98b",
+    "version_code":  191,
     "release_date":  "2026-11-23",
     "description":  "check log zalo",
     "changelog":  [
                       "check log zalo"
                   ],
-    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf98/AllaAi-1.0.1-rf98-win-x64.zip",
-    "sha256":  "9F5BD482E60F0E50876842CF6BD569E19D84F606449222FD7E8920FC18633A02"
+    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rf98b/AllaAi-1.0.1-rf98b-win-x64.zip",
+    "sha256":  "44436C7F5ACC0DEF4F27BA1E237305344FABA10B63F4DD13BCC4D8424AE2F066"
 }
