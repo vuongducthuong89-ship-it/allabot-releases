@@ -1,6 +1,39 @@
 {
   "updates": [
     {
+      "id": "up-1795677145676",
+      "version": "1.0.1-rg01",
+      "title": "rg01",
+      "date": "2026-11-26",
+      "tag": "Bản cập nhật mới",
+      "tagColor": "emerald",
+      "summary": "rg01",
+      "details": [
+        "[ Rg01b ]",
+        "+Thêm proxy (thêm xong lại thấy ko cần dùng)",
+        "+Thêm tick tự ăn vé trả phí bos TG ",
+        "+Thêm khả năng tự tìm mua iteam trong shop ở nhiệm vụ ingame ",
+        "+Chức năng hoạt họa: tự vẽ hoạt họa game > tự ghép lại thành hoạt ảnh / tick tiết kiệm ram sẽ vô hiệu hoạt họa",
+        "+Nâng cấp webremote hiển thị hoạt họa",
+        "Lưu ý: bot hack bắn gói tin lập tức khi vào trận > hoạt họa không theo kịp > cảm giác lag > không thể tránh khỏi > ko cách nào làm nhẹ nếu sử dụng hoạt họa",
+        "+Khảm / luyện / tăng skill trực tiếp từ bot",
+        "+Sửa lỗi nhận quà cửu cung / cần test thêm",
+        "+Tối ưu:",
+        "-Chế độ cơ bản > bỏ hoàn toàn tự lấy kỹ năng gây khó set cho người dùng mới",
+        "-Chế độ nâng cao > cho phép setting tùy chỉnh theo vị trí, id quái, số lượng quái (chưa hoạt động khi xuất chiến 4 pet)",
+        "-Thêm băng nha nhẫn, địa nha siêu, chấn điện làm skill train",
+        "-Bỏ tự động bán đồ nếu thiếu vàng rút thẻ",
+        "+Sửa vài lỗi lịch tự động",
+        "+Làm lại bảng STT ",
+        "+Làm lại tính năng tổ đội",
+        "+Sửa thông tin dame boss đoàn",
+        "+Thêm lệnh lấy link telegram",
+        "+Sửa lỗi có thành viên không ăn hp sp (do mạng lag trong 1 phút chốc làm acc đó mãi kẹt trong trận đấu trước đó > ko ăn)",
+        "+Thêm Flow cho Tất cả",
+        "+Sửa lỗi có thể tự ăn dị giới phù trong 1 số ít trường hợp +Rào logic nghiêm ngặt để bảo vệ item trong thùng đồ"
+      ]
+    },
+    {
       "id": "up-1-0-1-rf75",
       "version": "1.0.1-rf75",
       "tag": "Thương Mại Chuẩn",
@@ -103,5 +136,5 @@
   ],
   "serverStatus": "Máy chủ vận hành ổn định",
   "baselineVersion": "1.0.1-rf75",
-  "lastUpdated": "2026-11-16T04:02:12.608Z"
+  "lastUpdated": "2026-11-26T07:12:43.084Z"
 }
