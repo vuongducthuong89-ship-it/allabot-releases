@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.1-rg02",
-    "version_code":  199,
+    "version":  "1.0.1-rg03",
+    "version_code":  200,
     "release_date":  "2026-11-27",
     "description":  "Tạm chỉ cập nhật log tại nhóm chat zalo",
     "changelog":  [
                       "Tạm chỉ cập nhật log tại nhóm chat zalo"
                   ],
-    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rg02/AllaAi-1.0.1-rg02-win-x64.zip",
-    "sha256":  "BACB4ED8E6E5694000D6C3BA98A017FFCDC5F6C1EB28F0B5451A8DA9B34ED866"
+    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/v1.0.1-rg03/AllaAi-1.0.1-rg03-win-x64.zip",
+    "sha256":  "5D55E6F6C79D236AD0FFF127AF3144CD4EC0CF212FFDEB0A89B5A8240ADFE15B"
 }
