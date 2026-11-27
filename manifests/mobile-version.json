@@ -1,14 +1,16 @@
 {
     "version":  "0.1.0",
-    "version_code":  4,
+    "version_code":  5,
     "release_date":  "2026-11-28",
-    "description":  "Sửa triệt để lỗi treo login/lưu/giải nén, thiết kế lại giao diện 4 tab cho người dùng mới \u0026 bật tự động hóa an toàn",
+    "description":  "Hotfix AllaAi Mobile v0.1.0 b5: sửa màn hình xanh đen sau đăng nhập bản quyền, thêm ErrorBoundary \u0026 log WebView",
     "changelog":  [
+                      "[v0.1.0 b5] Sửa lỗi màn hình xanh đen sau đăng nhập bản quyền (QuickLoginStrip nextMetaSync)",
+                      "[v0.1.0 b5] Thêm AppErrorBoundary \u0026 log lỗi JS WebView ra Logcat",
                       "Sửa lỗi treo AndroidKeyStore IPC \u0026 giải nén nặng khi Đăng nhập / Lưu / Log All",
                       "Thiết kế lại UI 4 tab: nhập 5 acc + server chung, gợi ý bãi train theo Lv + Check bãi, set skill 1 chạm theo hệ, bộ lịch rảnh tay 1 chạm",
                       "Mặc định bật sẵn Tự gộp tổ đội, Tự mua HP/SP, Bảo vệ Faith \u0026 Tự kết nối lại; bật Auto-Update trực tiếp trong app"
                   ],
-    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/mobile-v0.1.0-b4/AllaAi-v0.1.0-b4.apk",
-    "sha256":  "e4f37a5c914dd05ba313727c337c7e45b9a3f6d3744ea8ddd7afee312ed71a37",
+    "download_url":  "https://github.com/vuongducthuong89-ship-it/allabot-releases/releases/download/mobile-v0.1.0-b5/AllaAi-v0.1.0-b5.apk",
+    "sha256":  "3cf22973ea3f422086fe8a9662ae39ce81f7907fd9ece1b96de0e1c8a2c99eaf",
     "mandatory":  false
 }
